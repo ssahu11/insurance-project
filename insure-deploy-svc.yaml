@@ -19,7 +19,7 @@ spec:
       - name: spring-boot-k8s
         image: ssahu1/insurance-proj:v1.38
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
 
 ---
 apiVersion: v1
